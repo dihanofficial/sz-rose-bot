@@ -62,7 +62,7 @@ from DewmiBot.modules.helper_funcs.misc import paginate_modules
 from DewmiBot.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hey there!👋  My name is Rose ✨
+Hey there!👋  My name is ammu ✨
 
 I can manage your  group with lots of useful features, feel free to add me to your group.
 """
@@ -82,15 +82,15 @@ DONATE_STRING = """
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
-rose = "🎯Updates:- @sl_bot_zone"
+rose = "🎯Updates:- @CatmusicWorld"
 
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/szrosebot?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/Catmusicworld?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/sl_bot_zone"),
+        InlineKeyboardButton(text="📢 Bot updates ", url=f"https://t.me/Catmusicworld"),
         InlineKeyboardButton(
             text="Repo 📦", url=f"https://github.com/youtubeslgeekshow"
         ),
@@ -372,7 +372,7 @@ def DewmiBot_about_callback(update, context):
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Donate 🤕", url="http://t.me/szrosebot?start=donate"
+                            text="Donate 🤕", url="http://t.me/The_cat_lover0?start=donate"
                         ),
                         InlineKeyboardButton(
                             text="Inline search 🔎", switch_inline_query_current_chat=""
